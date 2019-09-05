@@ -4,7 +4,6 @@ permalink: pretty
 title: GLUG-PESCE
 
 defaults:
-  -
     scope:
       path: ""
       type: posts
