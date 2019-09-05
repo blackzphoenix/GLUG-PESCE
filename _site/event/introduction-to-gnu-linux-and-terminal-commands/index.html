@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#FFD600">
+
+  <title>Introduction to GNU/Linux and Terminal Commands | GLUG-PESCE</title>
+
+  <link rel="shortcut icon" href="/assets/img/favicon.png" type="image/png"/ sizes="32x32">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <style media="screen">
+    #post-content img{
+      width: 100%;
+    }
+  </style>
+</head>
+
+  <body>
+    <header>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#FFEB3B;">
+    <div class="navbar-brand">GLUG-PESCE</div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ml-auto">
+        <a class="nav-item nav-link" href="/">Home</a>
+        <a class="nav-item nav-link" href="/blog/">Blog</a>
+        <a class="nav-item nav-link" href="/gallery/">Gallery</a>
+        <a class="nav-item nav-link" href="/about/">About</a>
+      </div>
+    </div>
+  </nav>
+</header>
+
+    <div class="container">
+      <article class="row justify-content-center">
+  <div class="col-md-8">
+    <header>
+      <h2 class="mb-0 mt-2">Introduction to GNU/Linux and Terminal Commands</h2>
+      <p class="text-muted lead font-weight-normal">
+        <small>
+          &bull; Published on Mar 4, 2019
+          
+        </small>
+       </p><hr>
+    </header>
+    <div class="text-justify lead font-weight-normal" id="post-content">
+      <h3 id="what-is-gnulinux">What is GNU/Linux?</h3>
+
+<p>It is an <strong>Operating System</strong> that manages a computer. It is entirely <strong>free</strong>
+and large number of developers spread over the world who always contribute for
+its development and existence till date. GNU/Linux is the core component and
+have different products which are <strong>distributions(distros)</strong> that vary with
+appearance and few working mechanism and functions like <strong>Internet/Networking,
+or Multimedia and Graphics and etc.</strong> There are hell lot of Free Software which
+are not just free but quality applications too. In simple term GNU/Linux is a
+collection of many programs, applications, libraries, developer tools, even
+games which talks with hardware of a computer.</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/800/0*Z2Jl3oXVUW43JSDh" alt="GNU/Linux" /></p>
+
+<p>There are many distros, choosing the right DISTRIBUTION of GNU/Linux, for
+newbies advised Distributions(Distros) are</p>
+
+<p>The larger picture of a <strong>GNU/Linux</strong> or any <strong>Free Software</strong> are it promotes
+users <strong>Freedom to run, copy, distribute, study, change and improve</strong> the
+Application. Free software refers to four kinds of freedom,</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>The freedom to run the program, for any purpose.
+
+The freedom to study how the program works, and adapt it to your needs. Access to the source code.
+
+The freedom to redistribute copies to others.
+
+The freedom to improve the program, and release your improved to public, so that the whole community benefits. And the source code should be accessed by public.
+</code></pre></div></div>
+
+<p>GNU/Linux is based on <strong>Command Line Interface (CLI)</strong> and nowadays it supports
+both <strong>CLI and Graphical User Interface (GUI)</strong>. Most of the functions like to
+create or delete a file/folder/directory, execute a program, install or
+uninstall, view documents, and etc can be done using a Terminal(also known as
+shell). Getting started with Terminal will ease most of your work starting from
+using a computer for viewing or managing database to working on a project to
+running or deploying a server and many more cool stuffs!!!</p>
+
+<h3 id="getting-started-with-terminal">Getting started with TERMINAL</h3>
+
+<p><img src="https://cdn-images-1.medium.com/max/600/1*J5bg4fxaOy4atKegwMVM-A.png" alt="Terminal" /></p>
+
+<p>Large portions of GNU/Linux functionality are achieved by using the terminal. A
+terminal is a <strong>command-line interpreter</strong> that executes user inputted commands.
+<strong>Bash</strong> is a common default shell among many Linux distributions. Learning few
+basic commands listed below will make it easy to use any GNU/Linux OS.<br />
+<strong>Commands (Terminal is Case-Sensitive)</strong></p>
+<ol>
+  <li>
+    <p>To Open the Terminal</p>
+
+    <p>$ Ctrl + Alt + T
+ $ Ctrl + Shift+ T  (To open terminal in tab fashion)</p>
+  </li>
+  <li>
+    <p>To end a execution</p>
+
+    <p>$ Ctrl + C</p>
+  </li>
+  <li>
+    <p>Clearing the Terminal Screen</p>
+
+    <p>$ clear 
+ or 
+ $ Ctrl + L</p>
+  </li>
+  <li>
+    <p>To  Auto-complete files or directory names</p>
+
+    <p>TAB (press Tab button)</p>
+  </li>
+  <li>
+    <p>To show all possible files or directory</p>
+
+    <p>TAB TAB (press Tab button twice</p>
+  </li>
+  <li>
+    <p>For any Help or Information on Commands</p>
+
+    <p>$ man <command name="" /> (To quit a man page use ‘q’ button)
+ or
+ $ <command name="" /> –help</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">ls</code> stands for <em>list</em>.</p>
+
+    <p>$ ls
+ $ ls -a  (lists all the files)
+ $ ls -l  (lists details like owner, date, type, etc.)
+ $ ls - *.pdf  (lists all the files of type pdf, not just pdf it can be other type extensions too)</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">cd</code> is Change Directory which allows to traverse through directories and
+file paths</p>
+
+    <p>$ cd 
+ or 
+ $ cd ~  (Changes the current directory to Root Directory)
+ $ cd -  (Changes the current directory to previous directory)
+ $ cd <dir>  (Changes the current directory to directory <dir>)</dir></dir></p>
+  </li>
+  <li>
+    <p>To display the Current directory</p>
+
+    <p>$ pwd  (Working Directory)</p>
+  </li>
+  <li>
+    <p>To Copy file/Directories</p>
+
+    <p>$ cp <source /> <Destination>  (Copies file from source to destination)
+$ cp file1 file2 file3 ...  dir  (Copies the following files to <dir>)
+$ cp -i  (Ask user confirmation if the target file already exist)
+$ cp -p  (preserves the attributes such as time, mode, ownership of the source file)</dir></Destination></p>
+  </li>
+  <li>
+    <p>To Move file</p>
+
+    <p>$ mv <old_name> <new_name>  (Renames a given file or directory)
+$ mv -i  (Ask user confirmation if the new file already exists)
+$ mv -p  (preserves the attributes such as time, mode, ownership of the source file)
+$ mv -f  (Force the move by overwriting the Destination file)</new_name></old_name></p>
+  </li>
+  <li>
+    <p>To Remove a file(Delete)</p>
+
+    <p>$ rm file1 file2 file3 file4  (Removes the given files)
+$ rm -i  (Ask for user confirmation)
+$ rm -r dir1 dir2 dir3  (Removes the given Directories including contents)
+$ rm -f  (Force remove)</p>
+  </li>
+  <li>
+    <p>Create or Remove Directories</p>
+
+    <p>$ mkdir dir1 dir2 dir3  (Creates directories with given names)
+$ touch <file_name></file_name></p>
+
+    <p>$ rmdir dir1 dir2 dir3  (Removes the given directories only when they are empty)
+$ rm -r <dir>  (Removes the given directories and no need to be empty)
+$ rm -rf <dir>  (Removes the given directories without asking)</dir></dir></p>
+  </li>
+  <li>
+    <p>Displaying Contents of files</p>
+
+    <p>$ cat file1 file2 file3  (Concatenates and outputs the contents of the files)
+$ vi <file_name>  (Edit the given file)</file_name></p>
+  </li>
+  <li>
+    <p>To  Search files</p>
+
+    <p>$ grep <pattern> <file></file></pattern></p>
+  </li>
+  <li>
+    <p>Ordering</p>
+
+    <p>$ sort <file>   (Sorts the lines in the file in Character order and outputs them)
+$ sort -r <file>  (Sorts the lines in reverse order in the file in Character order and outputs them)</file></file></p>
+  </li>
+  <li>
+    <p>Echo</p>
+
+    <p>$ echo <option> <String>  (Strings should be represented using double quotes)</String></option></p>
+  </li>
+  <li>
+    <p>Find</p>
+
+    <p>$ find <dir> <file_name></file_name></dir></p>
+  </li>
+  <li>
+    <p>To display the current User</p>
+
+    <p>$ whoami</p>
+  </li>
+  <li>
+    <p>Similarly date, calendar, time, and others can be used</p>
+
+    <p>$ date
+$ calendar
+$ time</p>
+  </li>
+  <li>
+    <p>Compressing and Uncompressing</p>
+
+    <p>$ gzip <options><file>
+$ gunzip <options><file></file></options></file></options></p>
+  </li>
+  <li>
+    <p>To close terminal</p>
+
+    <p>Ctrl + Shift + W  (terminal tab)
+Ctrl + Shift + Q  (entire terminal)</p>
+  </li>
+</ol>
+
+<h3 id="conclusion">Conclusion</h3>
+
+<p>When we have Free Software for very prominent  proprietor  software which gives
+the same or better experience, <strong>Why not use it ?</strong> The word free in Free
+Software is <strong>free as in Freedom</strong>, the source code is open to all. Few may feel
+the source code is open, any one can place a malware and upload, it is
+reasonable. But the truth is for every free software there is a** Community of
+developers** working on it and developers are assigned roles and any new updates
+or upgrades, needs to be reviewed by them(prominent person working in the
+community like editors, reviewer, etc). So whenever someone tries to upload a
+malware or such, its removed when developers detect them.</p>
+
+<p>So people working on GNU/Linux get the best use and experience Free Software.
+Most importantly people interested in <strong>Free Software and its philosophy</strong> need
+not contribute only by coding and development but <strong>spreading the knowledge</strong> of
+Free Software to our surrounding is also a big contribution for a better <strong>FREE
+DIGITAL SOCIETY</strong> that we live in.</p>
+
+    </div>
+  </div>
+</article>
+
+      <footer>
+  <hr>
+  <h5 class="text-center">GLUG-PESCE</h5>
+  <p class="text-center">P.E.S College of Engineering, Mandya</p>
+</footer>
+
+    </div>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  </body>
+</html>

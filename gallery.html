@@ -1,0 +1,14 @@
+---
+layout: page
+title: Gallery
+permalink: /gallery/
+---
+{% for img in site.static_files %}
+  {% if img.path contains 'assets/img/gallery' %}
+    <div class="d-inline-block my-2" style="width:32.5%;">
+      <a href="{{ img.path }}" target="_blank" rel="noopener">
+        <img src="{{ img.path }}" alt="Loading..." class="img-fluid rounded">
+      </a>
+    </div>
+  {% endif %}
+{% endfor %}

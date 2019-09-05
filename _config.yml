@@ -1,0 +1,15 @@
+markdown: kramdown
+permalink: pretty
+
+title: GLUG-PESCE
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      permalink: /:categories/:title/
+   url: glugpesce.github.io
+   baseurl: /glugpesce

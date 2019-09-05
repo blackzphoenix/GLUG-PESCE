@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-09-05T21:22:25+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">GLUG-PESCE</title><entry><title type="html">Introduction to GNU/Linux and Terminal Commands</title><link href="http://localhost:4000/event/introduction-to-gnu-linux-and-terminal-commands/" rel="alternate" type="text/html" title="Introduction to GNU/Linux and Terminal Commands" /><published>2019-03-04T00:00:00+05:30</published><updated>2019-03-04T00:00:00+05:30</updated><id>http://localhost:4000/event/introduction-to-gnu-linux-and-terminal-commands</id><content type="html" xml:base="http://localhost:4000/event/introduction-to-gnu-linux-and-terminal-commands/">&lt;h3 id=&quot;what-is-gnulinux&quot;&gt;What is GNU/Linux?&lt;/h3&gt;
+
+&lt;p&gt;It is an &lt;strong&gt;Operating System&lt;/strong&gt; that manages a computer. It is entirely &lt;strong&gt;free&lt;/strong&gt;
+and large number of developers spread over the world who always contribute for
+its development and existence till date. GNU/Linux is the core component and
+have different products which are &lt;strong&gt;distributions(distros)&lt;/strong&gt; that vary with
+appearance and few working mechanism and functions like &lt;strong&gt;Internet/Networking,
+or Multimedia and Graphics and etc.&lt;/strong&gt; There are hell lot of Free Software which
+are not just free but quality applications too. In simple term GNU/Linux is a
+collection of many programs, applications, libraries, developer tools, even
+games which talks with hardware of a computer.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/0*Z2Jl3oXVUW43JSDh&quot; alt=&quot;GNU/Linux&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There are many distros, choosing the right DISTRIBUTION of GNU/Linux, for
+newbies advised Distributions(Distros) are&lt;/p&gt;
+
+&lt;p&gt;The larger picture of a &lt;strong&gt;GNU/Linux&lt;/strong&gt; or any &lt;strong&gt;Free Software&lt;/strong&gt; are it promotes
+users &lt;strong&gt;Freedom to run, copy, distribute, study, change and improve&lt;/strong&gt; the
+Application. Free software refers to four kinds of freedom,&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;The freedom to run the program, for any purpose.
+
+The freedom to study how the program works, and adapt it to your needs. Access to the source code.
+
+The freedom to redistribute copies to others.
+
+The freedom to improve the program, and release your improved to public, so that the whole community benefits. And the source code should be accessed by public.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;GNU/Linux is based on &lt;strong&gt;Command Line Interface (CLI)&lt;/strong&gt; and nowadays it supports
+both &lt;strong&gt;CLI and Graphical User Interface (GUI)&lt;/strong&gt;. Most of the functions like to
+create or delete a file/folder/directory, execute a program, install or
+uninstall, view documents, and etc can be done using a Terminal(also known as
+shell). Getting started with Terminal will ease most of your work starting from
+using a computer for viewing or managing database to working on a project to
+running or deploying a server and many more cool stuffs!!!&lt;/p&gt;
+
+&lt;h3 id=&quot;getting-started-with-terminal&quot;&gt;Getting started with TERMINAL&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/600/1*J5bg4fxaOy4atKegwMVM-A.png&quot; alt=&quot;Terminal&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Large portions of GNU/Linux functionality are achieved by using the terminal. A
+terminal is a &lt;strong&gt;command-line interpreter&lt;/strong&gt; that executes user inputted commands.
+&lt;strong&gt;Bash&lt;/strong&gt; is a common default shell among many Linux distributions. Learning few
+basic commands listed below will make it easy to use any GNU/Linux OS.&lt;br /&gt;
+&lt;strong&gt;Commands (Terminal is Case-Sensitive)&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;To Open the Terminal&lt;/p&gt;
+
+    &lt;p&gt;$ Ctrl + Alt + T
+ $ Ctrl + Shift+ T  (To open terminal in tab fashion)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;To end a execution&lt;/p&gt;
+
+    &lt;p&gt;$ Ctrl + C&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Clearing the Terminal Screen&lt;/p&gt;
+
+    &lt;p&gt;$ clear 
+ or 
+ $ Ctrl + L&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;To  Auto-complete files or directory names&lt;/p&gt;
+
+    &lt;p&gt;TAB (press Tab button)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;To show all possible files or directory&lt;/p&gt;
+
+    &lt;p&gt;TAB TAB (press Tab button twice&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;For any Help or Information on Commands&lt;/p&gt;
+
+    &lt;p&gt;$ man &lt;command name=&quot;&quot; /&gt; (To quit a man page use ‘q’ button)
+ or
+ $ &lt;command name=&quot;&quot; /&gt; –help&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ls&lt;/code&gt; stands for &lt;em&gt;list&lt;/em&gt;.&lt;/p&gt;
+
+    &lt;p&gt;$ ls
+ $ ls -a  (lists all the files)
+ $ ls -l  (lists details like owner, date, type, etc.)
+ $ ls - *.pdf  (lists all the files of type pdf, not just pdf it can be other type extensions too)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cd&lt;/code&gt; is Change Directory which allows to traverse through directories and
+file paths&lt;/p&gt;
+
+    &lt;p&gt;$ cd 
+ or 
+ $ cd ~  (Changes the current directory to Root Directory)
+ $ cd -  (Changes the current directory to previous directory)
+ $ cd &lt;dir&gt;  (Changes the current directory to directory &lt;dir&gt;)&lt;/dir&gt;&lt;/dir&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;To display the Current directory&lt;/p&gt;
+
+    &lt;p&gt;$ pwd  (Working Directory)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;To Copy file/Directories&lt;/p&gt;
+
+    &lt;p&gt;$ cp &lt;source /&gt; &lt;Destination&gt;  (Copies file from source to destination)
+$ cp file1 file2 file3 ...  dir  (Copies the following files to &lt;dir&gt;)
+$ cp -i  (Ask user confirmation if the target file already exist)
+$ cp -p  (preserves the attributes such as time, mode, ownership of the source file)&lt;/dir&gt;&lt;/Destination&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;To Move file&lt;/p&gt;
+
+    &lt;p&gt;$ mv &lt;old_name&gt; &lt;new_name&gt;  (Renames a given file or directory)
+$ mv -i  (Ask user confirmation if the new file already exists)
+$ mv -p  (preserves the attributes such as time, mode, ownership of the source file)
+$ mv -f  (Force the move by overwriting the Destination file)&lt;/new_name&gt;&lt;/old_name&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;To Remove a file(Delete)&lt;/p&gt;
+
+    &lt;p&gt;$ rm file1 file2 file3 file4  (Removes the given files)
+$ rm -i  (Ask for user confirmation)
+$ rm -r dir1 dir2 dir3  (Removes the given Directories including contents)
+$ rm -f  (Force remove)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create or Remove Directories&lt;/p&gt;
+
+    &lt;p&gt;$ mkdir dir1 dir2 dir3  (Creates directories with given names)
+$ touch &lt;file_name&gt;&lt;/file_name&gt;&lt;/p&gt;
+
+    &lt;p&gt;$ rmdir dir1 dir2 dir3  (Removes the given directories only when they are empty)
+$ rm -r &lt;dir&gt;  (Removes the given directories and no need to be empty)
+$ rm -rf &lt;dir&gt;  (Removes the given directories without asking)&lt;/dir&gt;&lt;/dir&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Displaying Contents of files&lt;/p&gt;
+
+    &lt;p&gt;$ cat file1 file2 file3  (Concatenates and outputs the contents of the files)
+$ vi &lt;file_name&gt;  (Edit the given file)&lt;/file_name&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;To  Search files&lt;/p&gt;
+
+    &lt;p&gt;$ grep &lt;pattern&gt; &lt;file&gt;&lt;/file&gt;&lt;/pattern&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Ordering&lt;/p&gt;
+
+    &lt;p&gt;$ sort &lt;file&gt;   (Sorts the lines in the file in Character order and outputs them)
+$ sort -r &lt;file&gt;  (Sorts the lines in reverse order in the file in Character order and outputs them)&lt;/file&gt;&lt;/file&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Echo&lt;/p&gt;
+
+    &lt;p&gt;$ echo &lt;option&gt; &lt;String&gt;  (Strings should be represented using double quotes)&lt;/String&gt;&lt;/option&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Find&lt;/p&gt;
+
+    &lt;p&gt;$ find &lt;dir&gt; &lt;file_name&gt;&lt;/file_name&gt;&lt;/dir&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;To display the current User&lt;/p&gt;
+
+    &lt;p&gt;$ whoami&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Similarly date, calendar, time, and others can be used&lt;/p&gt;
+
+    &lt;p&gt;$ date
+$ calendar
+$ time&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Compressing and Uncompressing&lt;/p&gt;
+
+    &lt;p&gt;$ gzip &lt;options&gt;&lt;file&gt;
+$ gunzip &lt;options&gt;&lt;file&gt;&lt;/file&gt;&lt;/options&gt;&lt;/file&gt;&lt;/options&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;To close terminal&lt;/p&gt;
+
+    &lt;p&gt;Ctrl + Shift + W  (terminal tab)
+Ctrl + Shift + Q  (entire terminal)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;When we have Free Software for very prominent  proprietor  software which gives
+the same or better experience, &lt;strong&gt;Why not use it ?&lt;/strong&gt; The word free in Free
+Software is &lt;strong&gt;free as in Freedom&lt;/strong&gt;, the source code is open to all. Few may feel
+the source code is open, any one can place a malware and upload, it is
+reasonable. But the truth is for every free software there is a** Community of
+developers** working on it and developers are assigned roles and any new updates
+or upgrades, needs to be reviewed by them(prominent person working in the
+community like editors, reviewer, etc). So whenever someone tries to upload a
+malware or such, its removed when developers detect them.&lt;/p&gt;
+
+&lt;p&gt;So people working on GNU/Linux get the best use and experience Free Software.
+Most importantly people interested in &lt;strong&gt;Free Software and its philosophy&lt;/strong&gt; need
+not contribute only by coding and development but &lt;strong&gt;spreading the knowledge&lt;/strong&gt; of
+Free Software to our surrounding is also a big contribution for a better &lt;strong&gt;FREE
+DIGITAL SOCIETY&lt;/strong&gt; that we live in.&lt;/p&gt;</content><author><name></name></author><summary type="html">What is GNU/Linux?</summary></entry><entry><title type="html">Localization ‘18</title><link href="http://localhost:4000/event/localization-18/" rel="alternate" type="text/html" title="Localization '18" /><published>2018-11-01T00:00:00+05:30</published><updated>2018-11-01T00:00:00+05:30</updated><id>http://localhost:4000/event/localization-18</id><content type="html" xml:base="http://localhost:4000/event/localization-18/">&lt;div class=&quot;list-group&quot;&gt;
+  &lt;a href=&quot;/assets/localization/FOSS.pdf&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; class=&quot;list-group-item list-group-item-action flex-column align-items-start&quot;&gt;
+    &lt;div class=&quot;d-flex w-100 justify-content-between&quot;&gt;
+      &lt;h5 class=&quot;mb-1&quot;&gt;Free and Open Source Software&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;small class=&quot;text-muted&quot;&gt;Sunad, Sneha, Nityashree&lt;/small&gt;
+  &lt;/a&gt;
+  &lt;a href=&quot;/assets/localization/FSF.pdf&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; class=&quot;list-group-item list-group-item-action flex-column align-items-start&quot;&gt;
+    &lt;div class=&quot;d-flex w-100 justify-content-between&quot;&gt;
+      &lt;h5 class=&quot;mb-1&quot;&gt;Free Software Foundation&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;small class=&quot;text-muted&quot;&gt;Deesksha, Tanusha, Yashaswini&lt;/small&gt;
+  &lt;/a&gt;
+  &lt;a href=&quot;/assets/localization/GIMP.pdf&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; class=&quot;list-group-item list-group-item-action flex-column align-items-start&quot;&gt;
+    &lt;div class=&quot;d-flex w-100 justify-content-between&quot;&gt;
+      &lt;h5 class=&quot;mb-1&quot;&gt;GIMP&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;small class=&quot;text-muted&quot;&gt;Ramya, Preeti, Sangeetha&lt;/small&gt;
+  &lt;/a&gt;
+  &lt;a href=&quot;/assets/localization/Software_License.pdf&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; class=&quot;list-group-item list-group-item-action flex-column align-items-start&quot;&gt;
+    &lt;div class=&quot;d-flex w-100 justify-content-between&quot;&gt;
+      &lt;h5 class=&quot;mb-1&quot;&gt;Software Licence&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;small class=&quot;text-muted&quot;&gt;Sammith, Srivathsa, Mahima Pai&lt;/small&gt;
+  &lt;/a&gt;
+  &lt;a href=&quot;/assets/localization/OS.pdf&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; class=&quot;list-group-item list-group-item-action flex-column align-items-start&quot;&gt;
+    &lt;div class=&quot;d-flex w-100 justify-content-between&quot;&gt;
+      &lt;h5 class=&quot;mb-1&quot;&gt;Operating System&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;small class=&quot;text-muted&quot;&gt;Yeshwanth, Srujan, Yashwanth Gowda&lt;/small&gt;
+  &lt;/a&gt;
+  &lt;a href=&quot;/assets/localization/Patents.pdf&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; class=&quot;list-group-item list-group-item-action flex-column align-items-start&quot;&gt;
+    &lt;div class=&quot;d-flex w-100 justify-content-between&quot;&gt;
+      &lt;h5 class=&quot;mb-1&quot;&gt;Patents&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;small class=&quot;text-muted&quot;&gt;Monisha, Supriya, Srihari&lt;/small&gt;
+  &lt;/a&gt;
+  &lt;a href=&quot;/assets/localization/Data_Security.pdf&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; class=&quot;list-group-item list-group-item-action flex-column align-items-start&quot;&gt;
+    &lt;div class=&quot;d-flex w-100 justify-content-between&quot;&gt;
+      &lt;h5 class=&quot;mb-1&quot;&gt;Data Security&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;small class=&quot;text-muted&quot;&gt;Sanjay, Taniya, Shivani&lt;/small&gt;
+  &lt;/a&gt;
+  &lt;a href=&quot;/assets/localization/Agile.pdf&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; class=&quot;list-group-item list-group-item-action flex-column align-items-start&quot;&gt;
+    &lt;div class=&quot;d-flex w-100 justify-content-between&quot;&gt;
+      &lt;h5 class=&quot;mb-1&quot;&gt;Agile Software Development&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;small class=&quot;text-muted&quot;&gt;Varun Achar, Krupa&lt;/small&gt;
+  &lt;/a&gt;
+  &lt;a href=&quot;/assets/localization/Sophia.pdf&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; class=&quot;list-group-item list-group-item-action flex-column align-items-start&quot;&gt;
+    &lt;div class=&quot;d-flex w-100 justify-content-between&quot;&gt;
+      &lt;h5 class=&quot;mb-1&quot;&gt;Sophia the Robot&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;small class=&quot;text-muted&quot;&gt;&lt;/small&gt;
+  &lt;/a&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Free and Open Source Software Sunad, Sneha, Nityashree Free Software Foundation Deesksha, Tanusha, Yashaswini GIMP Ramya, Preeti, Sangeetha Software Licence Sammith, Srivathsa, Mahima Pai Operating System Yeshwanth, Srujan, Yashwanth Gowda Patents Monisha, Supriya, Srihari Data Security Sanjay, Taniya, Shivani Agile Software Development Varun Achar, Krupa Sophia the Robot</summary></entry><entry><title type="html">GIMP Workshop</title><link href="http://localhost:4000/event/gimp-workshop/" rel="alternate" type="text/html" title="GIMP Workshop" /><published>2018-04-09T00:00:00+05:30</published><updated>2018-04-09T00:00:00+05:30</updated><id>http://localhost:4000/event/gimp-workshop</id><content type="html" xml:base="http://localhost:4000/event/gimp-workshop/">&lt;p&gt;&lt;img src=&quot;/assets/img/blog/2018-04-09-gimp-workshop-01.jpeg&quot; alt=&quot;img1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;On 7th April, 2018 i.e on this Saturday Glug conducted a free workshop on GIMP, an alternative free software on Photoshop. The session was guided by Mr.Vishal as the resource person. The session 2pm and went on upto 5pm.&lt;/p&gt;
+
+&lt;p&gt;It was a fun workshop where each individual got personal attention taking it as a plus point of not so crowded workshop having a strength of 20 Students. They were introduced to the different tools in GIMP and were let to present their own creativity. The session ended with each student doing their own GIF and taking with them other tools knowledge of GIMP.&lt;/p&gt;
+
+&lt;p&gt;Thus Glug this Saturday introduced students with a free Photoshop software and filling students mind with a lot more creative knowledge technically.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/blog/2018-04-09-gimp-workshop-02.jpeg&quot; alt=&quot;img2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/blog/2018-04-09-gimp-workshop-poster.jpeg&quot; alt=&quot;poster&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Python Basic Hands-on Workshop</title><link href="http://localhost:4000/event/python-basic-hands-on-workshop/" rel="alternate" type="text/html" title="Python Basic Hands-on Workshop" /><published>2018-03-26T00:00:00+05:30</published><updated>2018-03-26T00:00:00+05:30</updated><id>http://localhost:4000/event/python-basic-hands-on-workshop</id><content type="html" xml:base="http://localhost:4000/event/python-basic-hands-on-workshop/">&lt;p&gt;Glug-PESCE organised a one day workshop on Phython Programming language on 24th March, 2018 which was a Saturday. The session started with a small introductory at 10am with  the ISE dept HoD, Dr.Minavathi sharing her thoughts.&lt;/p&gt;
+
+&lt;p&gt;The resource persons for the day’s workshop were &lt;a href=&quot;https://twitter.com/hackintoshrao&quot; target=&quot;\_blank&quot; rel=&quot;noopener&quot;&gt;Karthik Rao&lt;/a&gt;, an AI Consultant and &lt;a href=&quot;https://twitter.com/iamabraarsyed&quot; target=&quot;\_blank&quot; rel=&quot;noopener&quot;&gt;Abraar Syed&lt;/a&gt;, a product engineer, content developer and a corporate trainer with jnaapti. It was indeed a great pleasure to have them as the day’s speakers.&lt;/p&gt;
+
+&lt;p&gt;The workshop had limited seats for 50 students and it was a great success having all the 50 seats being registered before the last date of registration.&lt;/p&gt;
+
+&lt;p&gt;The session started after the small inaugural and the first half went on till 1:30pm with a small refreshment break in middle, with the same enthusiasm and eager from the students. After lunch being provided, the second half went on till 5pm ending up with the students earning enough knowledge on Python basics as well as a few topics outside the box.&lt;/p&gt;
+
+&lt;p&gt;It was indeed a great success and with all gratitude to the speakers when students expressed their wish and wanted more such workshops in the coming days.
+With all the knowledge gained, students were surprised with few goodies like Python badges and stickers.
+The session ended with all the students receiving their certificates.&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-md-6 pb-2&quot;&gt;
+    &lt;img src=&quot;/assets/img/blog/2018-03-26-python-basic-hands-on-workshop-01.jpeg&quot; alt=&quot;img1&quot; class=&quot;rounded&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-md-6 pb-2&quot;&gt;
+    &lt;img src=&quot;/assets/img/blog/2018-03-26-python-basic-hands-on-workshop-02.jpeg&quot; alt=&quot;img2&quot; class=&quot;rounded&quot; /&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-md-6 pb-2&quot;&gt;
+    &lt;img src=&quot;/assets/img/blog/2018-03-26-python-basic-hands-on-workshop-03.jpeg&quot; alt=&quot;img3&quot; class=&quot;rounded&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-md-6 pb-2&quot;&gt;
+    &lt;img src=&quot;/assets/img/blog/2018-03-26-python-basic-hands-on-workshop-04.jpeg&quot; alt=&quot;img4&quot; class=&quot;rounded&quot; /&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/blog/2018-03-26-python-basic-hands-on-workshop-poster.jpeg&quot; alt=&quot;poster&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Glug-PESCE organised a one day workshop on Phython Programming language on 24th March, 2018 which was a Saturday. The session started with a small introductory at 10am with the ISE dept HoD, Dr.Minavathi sharing her thoughts.</summary></entry><entry><title type="html">Introduction to GNU/LINUX and Free Software</title><link href="http://localhost:4000/event/introduction-to-gnu-linux-and-free-software/" rel="alternate" type="text/html" title="Introduction to GNU/LINUX and Free Software" /><published>2018-03-10T00:00:00+05:30</published><updated>2018-03-10T00:00:00+05:30</updated><id>http://localhost:4000/event/introduction-to-gnu-linux-and-free-software</id><content type="html" xml:base="http://localhost:4000/event/introduction-to-gnu-linux-and-free-software/">&lt;p&gt;&lt;img src=&quot;/assets/img/blog/introduction-to-gnu-linux-and-free-software-01.jpeg&quot; alt=&quot;img1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The session started around 4:15pm as it scheduled at. At beginning of this session we had self introduction of ourselves. First Mohammed Saif from the 3rd year CS took on the session. He spoke about Free software. And the audience response to his session was great.&lt;/p&gt;
+
+&lt;p&gt;Later Sanjay from 2nd year CS took over the session. He gave an introduction to the audience about the GNU/LINUX. He kept it simple and he presented in a pretty decent way. And then Varun from 2nd year CS was ready to interact with the audience about the basic commands of GNU/LINUX. It was the hands-on part of the session and the audience were very responsive.&lt;/p&gt;
+
+&lt;p&gt;As we had to explain about the basic commands of GNU/LINUX we installed Linux-Mint in the laptops using virtual box. Though we faced some issues here and there our team successfully could debug all the errors that occurred. In some laptops we used Live boot using pendrives. In Total there were around 25 participants. As the session continued speakers were changed, we thought we would not be able to complete the session as planned, but we finally did it. We could complete the session at 6:30pm as we had planned.&lt;/p&gt;
+
+&lt;p&gt;We successfully completed our first event after re-framing our GLUG-PESCE.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/blog/introduction-to-gnu-linux-and-free-software-poster.jpeg&quot; alt=&quot;Poster&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
